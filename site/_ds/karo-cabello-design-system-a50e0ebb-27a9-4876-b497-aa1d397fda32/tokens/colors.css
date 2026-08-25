@@ -1,0 +1,42 @@
+:root{
+/* base palette — sampled directly from Manual de Identidad Karo Cabello (logo + collateral renders) */
+--rose-copper-100:#f3ded7;
+--rose-copper-300:#dd9f8f;
+--rose-copper-500:#c37d66;
+--rose-copper-600:#a8654f;
+--rose-copper-700:#8a5040;
+--espresso-900:#251d1b;
+--espresso-700:#3a2e2a;
+--cream-100:#f8f4ef;
+--cream-200:#f1eae2;
+--blush-200:#e6d0c5;
+--taupe-300:#c9bdad;
+--gold-500:#b08d57;
+--white:#ffffff;
+
+/* semantic aliases */
+--bg-page:var(--cream-200);
+--bg-surface:var(--white);
+--bg-surface-tint:var(--cream-100);
+--bg-inverse:var(--espresso-900);
+--surface-blush:var(--blush-200);
+--surface-taupe:var(--taupe-300);
+
+--text-primary:var(--espresso-900);
+--text-secondary:#5b4d47;
+--text-muted:#8a7a72;
+--text-on-accent:var(--white);
+--text-on-inverse:var(--cream-100);
+
+--accent:var(--rose-copper-500);
+--accent-hover:var(--rose-copper-600);
+--accent-active:var(--rose-copper-700);
+--accent-soft:var(--rose-copper-100);
+--accent-gold:var(--gold-500);
+
+--border-subtle:#e2d5cb;
+--border-default:#d3bfb2;
+--border-strong:var(--rose-copper-500);
+
+--shadow-color:220 20% 20%;
+}
